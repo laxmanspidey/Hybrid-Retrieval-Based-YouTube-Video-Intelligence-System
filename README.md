@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hybrid Retrieval-Based YouTube Video Intelligence System
 
 An AI-powered Retrieval-Augmented Generation (RAG) system that transforms YouTube videos into an intelligent, searchable knowledge base. The application automatically transcribes videos, performs timestamp-aware chunking, generates semantic embeddings, and enables natural language interaction through a local Large Language Model (LLM).
@@ -127,4 +126,3 @@ Evaluation metrics include:
 This project demonstrates the design, implementation, optimization, and evaluation of a production-inspired Retrieval-Augmented Generation system for educational and informational video understanding while maintaining privacy through local inference.
 =======
 # Hybrid-Retrieval-Based-YouTube-Video-Intelligence-System
->>>>>>> 75ad7fa30e3bab4ec2226941de2cbece0f8287be
