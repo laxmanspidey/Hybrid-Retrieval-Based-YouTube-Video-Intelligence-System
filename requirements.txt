@@ -1,0 +1,21 @@
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+langchain-chroma
+langchain-text-splitters
+chromadb
+yt-dlp
+openai-whisper
+faster-whisper
+youtube-transcript-api
+pandas
+python-dotenv
+
+# Voice I/O
+# streamlit-mic-recorder uses the browser's native MediaRecorder API — no
+# aiortc/PyAV signaling server, so it doesn't have the process-crash issue
+# streamlit-webrtc had on Windows.
+streamlit-mic-recorder>=0.0.8
+piper-tts>=1.2

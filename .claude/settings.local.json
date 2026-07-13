@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m py_compile app.py)",
+      "Bash(python -c \"import ast; [ast.parse\\(open\\(f\\).read\\(\\)\\) for f in ['app.py','utils.py','voice.py','i18n.py','rag_engine.py','video_processor.py']]; print\\('All files parse OK'\\)\")",
+      "Bash(python -c ':*)",
+      "WebFetch(domain:ollama.com)",
+      "Bash(venv\\\\Scripts\\\\python -m pip install piper-tts)",
+      "Bash(ls venv/Scripts/python*)",
+      "Bash(ls venv/Scripts/pip*)",
+      "Bash(\"venv/Scripts/python.exe\" -m pip install piper-tts)",
+      "Bash(\"venv/Scripts/python.exe\" -c \"from piper.download import ensure_voice, get_voices; print\\('piper.download OK'\\)\")",
+      "Bash(\"venv/Scripts/python.exe\" -c \"import piper; print\\(dir\\(piper\\)\\)\")",
+      "WebSearch",
+      "Bash(\"venv/Scripts/python.exe\" -c \"import ast; [ast.parse\\(open\\(f,'rb'\\).read\\(\\)\\) for f in ['app.py','utils.py','voice.py','i18n.py','rag_engine.py','video_processor.py']]; print\\('All OK'\\)\")",
+      "Bash(venv/Scripts/python.exe -X utf8 -c ':*)"
+    ]
+  }
+}

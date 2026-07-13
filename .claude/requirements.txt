@@ -1,0 +1,19 @@
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+langchain-chroma
+langchain-text-splitters
+chromadb
+yt-dlp
+openai-whisper
+faster-whisper
+youtube-transcript-api
+pandas
+python-dotenv
+
+# Voice I/O
+streamlit-webrtc>=0.47
+av>=10.0
+piper-tts>=1.2
